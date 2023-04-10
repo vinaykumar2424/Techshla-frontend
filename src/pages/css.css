@@ -1,0 +1,85 @@
+.Register-page{
+    background-color: #708492;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.Register-page:hover{
+    background: linear-gradient(to left,#708492, #f88e245f);
+    transition: 5s;
+}
+.Regsiter-box{
+    /* background-color: #f88e245f; */
+    background: linear-gradient(to right,#708492, #f88e245f);
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.appName{
+    color: #0B2D36;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page-type{
+    color: #01191B;
+}
+input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #f88e245f;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+}
+input::placeholder{
+    color: grey;
+}
+
+.Signup-btn{
+    background-color: #0B2D36;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.Signup-btn:hover{
+    background:linear-gradient(to left,#708492, #f88e245f);
+    transition: 1s;
+    border: 1px solid #f88e245f;
+    color: #0B2D36;
+}
+.DirToLoginsignup{
+    color: #0B2D36;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* ################# */
+
+.bg-body-tertiary{
+    background:linear-gradient(to left,#708492, #f88e245f) !important;
+    color: white;
+}
+.user-icons{
+    color: #0B2D36;
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-top: 10px !important; */
+}
+.nav-link:hover{
+    background:linear-gradient(to right,#708492, #f88e245f) !important;
+    border-radius: 15px;
+    transition: 0.5s;
+}
