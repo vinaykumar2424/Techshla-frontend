@@ -72,12 +72,7 @@ input::placeholder{
     background:linear-gradient(to left,#708492, #f88e245f) !important;
     color: white;
 }
-.user-icons{
-    color: #0B2D36;
-    font-size: 30px;
-    font-weight: bold;
-    /* margin-top: 10px !important; */
-}
+
 .nav-link:hover{
     background:linear-gradient(to right,#708492, #f88e245f) !important;
     border-radius: 15px;

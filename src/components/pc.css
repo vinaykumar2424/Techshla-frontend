@@ -1,0 +1,183 @@
+.pclist{
+    padding: 20px 0;
+    overflow-y: scroll;
+    height: calc(100vh - 56px);
+    scroll-behavior: smooth;
+    background:linear-gradient(to right,#708492, #f88e245f);
+}
+.pclist::-webkit-scrollbar{
+    display: none;
+}
+.pc-card{
+    display:inline-block;
+    background:linear-gradient(to left,#708492, #f88e245f);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 340px;
+    box-shadow: 0px 0px 20px 4px #708492;
+    margin: 15px;
+}
+.pc-card:hover{
+    background:linear-gradient(to right,#708492, #f88e245f);
+    transition: 2s;
+    border: 1px solid #708492;
+}
+.pcName{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.pcFunc{
+    margin-top: 40px;
+    margin-right: 20px !important;
+}
+.pcFuncBtn{
+    background-color: #0B2D36;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.MoreInfoBtn{
+    background-color: #0B2D36;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin: 0 20px 0 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    width:240px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background:linear-gradient(to left,#708492, #f88e245f);
+    transition: 1s;
+    border: 1px solid #f88e245f;
+    color: #0B2D36;
+}
+/* ///////////////////// */
+/* morefunctions styling */
+.morefunctions{
+    width: 100vw;
+    height: 100vw;
+}
+.pc-details{
+    background:linear-gradient(to left,#708492, #f88e245f);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.common-func-btn{
+    background-color: #0B2D36;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.common-func-btn:hover{
+    background:linear-gradient(to right,#708492, #f88e245f);
+}
+.computer-icon{
+    font-size: 8rem;
+    padding: 20px;
+}
+.Desktop-Name{
+    font-size: 2rem;
+}
+.shutdown-hybernate-Btn{
+    display: flex;
+    justify-content: space-around;
+    margin-right:20px;
+}
+.pcfunctions{
+    background:linear-gradient(to left,#708492, #f88e245f);
+    height: calc(100vh);
+    padding: 20px 5vw;
+}
+.allpcfunc{
+    overflow-y: scroll;
+    height: 60vh;
+    padding: 20px;
+    border: 5px solid #0B2D36;
+    border-top: 50px solid #0B2D36;
+}
+.allpcfunc::-webkit-scrollbar{
+    display: none;
+}
+.functionNameBlock{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+    background-color: #0B2D36;
+    color: white;
+    padding: 10px 20px;
+}
+.functionNameBlock:hover{
+    background:linear-gradient(to left,#708492, #f88e245f);
+    border: 1px solid #0B2D36;
+    border-radius: 10px;
+    transition: 1s;
+    color: #0B2D36;
+}
+/* .momary-use-details:hover{
+    color: #0B2D36;
+} */
+.delete-btn:hover{
+    cursor: pointer;
+    color: rgb(145, 21, 21);
+
+}
+.refresh-btn{
+    position: relative;
+    float: right;
+    top: 10px;
+    right: 40px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.battery-icon{
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 40px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.refresh-btn:active{
+    transform: rotate(360deg);
+}
+.momary-use-details{
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+.hibernate-btn{
+    margin-left: 15px;
+}
+@media only screen and (max-width: 490px) {
+    .computer-icon{
+        display: inline-block;
+        font-size: 6rem;
+        padding: 15px;
+    }
+    .Desktop-Name{
+        font-size: 1.2rem;
+    }
+    .common-func-btn{
+        padding: 10px;
+    }
+    .shutdown-hybernate-Btn{
+        display: block;
+    }
+  }
