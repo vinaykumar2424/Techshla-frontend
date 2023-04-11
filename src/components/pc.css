@@ -76,7 +76,7 @@ button:hover{
 }
 .common-func-btn{
     background-color: #0B2D36;
-    color: white;
+    color: rgb(251, 70, 70);
     cursor: pointer;
     padding: 15px;
     font-weight: bold;
@@ -128,9 +128,14 @@ button:hover{
     transition: 1s;
     color: #0B2D36;
 }
-/* .momary-use-details:hover{
-    color: #0B2D36;
-} */
+.momary-use-details{
+    float: right;
+}
+.details-box{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
 .delete-btn:hover{
     cursor: pointer;
     color: rgb(145, 21, 21);
@@ -179,5 +184,19 @@ button:hover{
     }
     .shutdown-hybernate-Btn{
         display: block;
+    }
+    .runningTaskName{
+        font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 670px) {
+    .momary-use-details{
+        display: flex;
+    }
+    .details-box{
+        display: grid;
+        justify-content: space-between;
+        width: 50%;
     }
   }

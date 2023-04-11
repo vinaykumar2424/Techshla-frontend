@@ -3,7 +3,7 @@ import RunningTask from "./RunningTask";
 const MoreFunctions = (props) => {
     const location = useLocation();
     const propsData = location.state;
-    console.log(propsData.name)
+    // console.log(propsData.name)
  
     // usest
     const RefreshPage =()=>{
